@@ -1,0 +1,98 @@
+.pricing__item {
+display: flex;
+flex-direction: column;
+}
+
+.pricing__title {
+  color: #36536B;
+text-align: center;
+font-family: DM Serif Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.246px;
+margin-top: 48px;
+}
+
+.pricing__sub_title {
+  color: #BA4270;
+text-align: center;
+font-family: DM Serif Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.185px;
+margin-bottom: 81px;
+margin-top: 48px;
+}
+
+.pricing__text_active {
+  color: #36536B;
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.5;
+text-align: center;
+}
+
+.pricing__text {
+  color: #36536B;
+font-family: Public Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+
+.pricing__btn {
+  color: #36536B;
+font-family: Public Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.115px;
+border-radius: 24px;
+border: 1px solid #36536B;
+padding: 16px 28px;
+background-color: transparent;
+max-width: 168px;
+margin-left: auto;
+margin-inline-end: auto;
+}
+
+
+.pricing__text_block::before{
+  content: "";
+  display: inline-block;
+  background-image: url(/img/pricing3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 106px;
+}
+
+.pricing__text_block:nth-child(2)::before{
+ content: "";
+ display: inline-block;
+ background-image: url(/img/pricing2.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 100%;
+ height: 106px;
+}
+
+.pricing__text_block:nth-child(3)::before{
+ content: "";
+ display: inline-block;
+ background-image: url(/img/pricing1.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 100%;
+ height: 106px;
+}
